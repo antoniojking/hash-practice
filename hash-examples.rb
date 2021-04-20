@@ -36,8 +36,8 @@ example_hash = {
 mazda_cx5 = {
   stereo: "Apple Carplay",
   wipers: "auto rain-sensing",
-  front_windows: "tinted",
-  rear_windows: "standard",
+  front_windows: ["automatic", "tinted"],
+  rear_windows: ["automatic", "standard"],
   tow_hitch: "yes",
   roof_rack: "yes",
   number_of_seats: 5,
@@ -45,4 +45,18 @@ mazda_cx5 = {
   number_of_cup_holders: 8,
   mpg: 25,
   is_safe: true
+}
+
+# Add a model for an animal
+octopus = {
+  number_of_limbs: 8,
+  level_of_intellect: "high",
+  habitat: "ocean",
+  ecosystem: ["kelp forest", "reef"],
+  favorite_food: "crab",
+  life_span: "one year",
+  is_dangerous: false,
+  color: "camoflauge",
+  endangered_species: "no",
+  predator: "reef shark",
 }
