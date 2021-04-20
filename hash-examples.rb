@@ -60,3 +60,15 @@ octopus = {
   endangered_species: "no",
   predator: "reef shark",
 }
+
+# Add a model for a customer
+customer = {
+  temperment: "confused",
+  form_of_pay: "card",
+  number_of_items: 5,
+  first_time_buyer: "no",
+  rewards_member: "yes",
+  satisfaction_level: "satisfied",
+  time_spent_shopping: "30 minutes",
+  gender: "female"
+}
